@@ -1,0 +1,16 @@
+/* main.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#banner {
+    background-image: url('../images/donation13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%; 
+}
