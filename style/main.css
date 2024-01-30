@@ -3,14 +3,52 @@
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 
 #banner {
-    background-image: url('../images/donation13.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #009688), url('../images/donation13.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    width: 100%; 
+    width: 100%;
+}
+
+.banner-info {
+    text-align: center;
+    color: #fff;
+    padding: 174px 300px;
+
+
+}
+
+.banner-info h1 {
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+    padding: 20px;
+
+
+}
+
+.banner-info p {
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.donated-now {
+    width: 160px;
+    padding: 16px 12px;
+    gap: 8px;
+    border-radius: 5px;
+    background: #FF5959;
+}
+.donted-now-text{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
 }
