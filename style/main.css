@@ -3,14 +3,14 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #960000;
 
 }
 
 #banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), #009688), url('../images/donation13.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0), #9600009c), url('../images/donation13.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     height: 100vh;
     width: 100%;
 }
@@ -51,4 +51,82 @@ body {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+.donatd-today{
+       margin-top: 130px;
+       background: #FFF8F3;
+       border-radius: 10px;
+       padding: 130px 150px;
+       text-align: center;
+}
+.section-title{
+            /* text-align: center; */
+            margin-bottom: 30px;
+            font-weight: 700;
+            font-size: 35px;
+
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+
+}
+/* .about-info-container{
+    display: flex;
+    text-align: center;
+} */
+.all-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #FF5959;
+    padding: 10px;
+}
+.otherAmountsection{
+    color: #FF5959;
+    padding:20px;
+
+}
+.our-donate-plan{
+    font-size: 20px;
+    padding: 10px;
+
+}
+.info-sub-image-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    padding-right: 10%;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 30%;
+
+}
+/* .container-lives{
+    justify-content: center;
+} */
+/* .btn-contribute{
+    color: black;
+    border-radius: 0%;
+    background-color: #FF5959;
+} */
+.thirdContainer{
+    display: flex;
+    gap: 20px;
+    
+}
+.section-fotter{
+    text-align: center;
+    color: #FF5959;
 }
